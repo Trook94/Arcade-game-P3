@@ -18,7 +18,7 @@ And change the background
 
 # How to play
 
-The goal is to match is to jump into the water. Click in the following link to play: 
+The goal is to match is to jump into the water. Click in the following link to play: https://trook94.github.io/Arcade-game-P3/
 
 Using the arrow keys on your keyboard, move upwards.
 

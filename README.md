@@ -28,4 +28,4 @@ Using the arrow keys on your keyboard, move upwards.
 
 Try and avoid the bullets and try and jump into the water.
 
-If you made it in the water, you can play again. If you collided with a cockroach, start again!
+If you made it in the water, you can play again. If you collided with a bullet, start again!

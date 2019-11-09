@@ -26,6 +26,6 @@ The goal is to match is to jump into the water. Click in the following link to p
 
 Using the arrow keys on your keyboard, move upwards.
 
-Try and avoid the cockroaches and try and jump into the water.
+Try and avoid the bullets and try and jump into the water.
 
 If you made it in the water, you can play again. If you collided with a cockroach, start again!

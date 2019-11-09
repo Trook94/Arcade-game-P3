@@ -7,7 +7,11 @@ In my Front End Udacity nanodegree, I had to code a classic arcade game based on
 # Some changes
 
 *I added Mario character
+
+
 *I added the enemy bullet
+
+
 *And change the background
 
 

@@ -9,14 +9,14 @@
  * drawn but that is not the case. What's really happening is the entire "scene"
  * is being drawn over and over, presenting the illusion of animation.
  *
- * This engine makes the canvas' context (ctx) object globally available to make
+ * This engine makes the canvas' context (ctx) object globally available to make 
  * writing app.js a little simpler to work with.
  */
 
 var Engine = (function(global) {
     /* Predefine the variables we'll be using within this scope,
      * create the canvas element, grab the 2D context for that canvas
-     * set the canvas element's height/width and add it to the DOM.
+     * set the canvas elements height/width and add it to the DOM.
      */
     var doc = global.document,
         win = global.window,
@@ -51,7 +51,6 @@ var Engine = (function(global) {
          * for the next time this function is called.
          */
         lastTime = now;
-        console.log(now);
 
         /* Use the browser's requestAnimationFrame function to call this
          * function again as soon as the browser is able to draw another frame.
@@ -79,7 +78,7 @@ var Engine = (function(global) {
      * on the entities themselves within your app.js file).
      */
     function update(dt) {
-        // updateEntities(dt);
+        updateEntities(dt);
         // checkCollisions();
     }
 
@@ -118,9 +117,9 @@ var Engine = (function(global) {
             numRows = 6,
             numCols = 5,
             row, col;
-
+        
         // Before drawing, clear existing canvas
-        ctx.clearRect(0,0,canvas.width,canvas.height);
+        ctx.clearRect(0,0,canvas.width,canvas.height)
 
         /* Loop through the number of rows and columns we've defined above
          * and, using the rowImages array, draw the correct image for that
@@ -139,7 +138,7 @@ var Engine = (function(global) {
             }
         }
 
-        // renderEntities();
+        renderEntities();
     }
 
     /* This function is called by the render function and is called on each game
@@ -173,8 +172,8 @@ var Engine = (function(global) {
         'images/stone-block.png',
         'images/water-block.png',
         'images/grass-block.png',
-        'images/enemy-bug.png',
-        'images/char-boy.png'
+        'images/bullet.png',
+        'images/mario.png'
     ]);
     Resources.onReady(init);
 

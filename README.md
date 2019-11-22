@@ -2,19 +2,15 @@
 
 In my Front End Udacity nanodegree, I had to code a classic arcade game based on the game Frogger. The point of the game is to get your character from the grass over the road and into the water. The challenge is to avoid the bugs that travel on the road. If a bug is touched, the character is reset back at the beginning. Upon reaching the water, the user is also reset back to the beginning.
 
-
-
 # Some changes
 
 I added Mario character
 I added the enemy bullet
 And change the background
 
-
 # Demo
 
 <img src="images\gamee.gif">
-
 
 # How to play
 

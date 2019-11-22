@@ -4,9 +4,13 @@ In my Front End Udacity nanodegree, I had to code a classic arcade game based on
 
 # Some changes
 
-I added Mario character
-I added the enemy bullet
-And change the background
+*I added Mario character
+
+
+*I added the enemy bullet
+
+
+*And change the background
 
 # Demo
 
@@ -18,6 +22,6 @@ The goal is to match is to jump into the water. Click in the following link to p
 
 Using the arrow keys on your keyboard, move upwards.
 
-Try and avoid the cockroaches and try and jump into the water.
+Try and avoid the bullets and try and jump into the water.
 
-If you made it in the water, you can play again. If you collided with a cockroach, start again!
+If you made it in the water, you can play again. If you collided with a bullet, start again!
